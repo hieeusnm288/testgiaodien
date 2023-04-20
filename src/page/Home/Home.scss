@@ -1,0 +1,163 @@
+.home {
+    background-image   : url('./img/background.png');
+    background-repeat  : no-repeat;
+    background-position: 50%;
+    background-size    : cover;
+    width              : 100%;
+    height             : 840px;
+
+    .firist {
+        padding-top: 50px;
+
+        .img-doi {
+            display        : flex;
+            justify-content: space-around;
+
+            .img1 {
+                width        : 154.65px;
+                height       : 154.65px;
+                border       : 5px solid #FFD0D0;
+                border-radius: 50%;
+                margin-left  : 5px;
+                margin-right : 5px;
+
+                img {
+                    width        : 100%;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .name {
+            display        : flex;
+            justify-content: space-around;
+            margin-top     : 10px;
+            color          : #E48B8B;
+            font-family    : cursive;
+            font-size      : 20px;
+        }
+
+        .info {
+            .row {
+                justify-content: center;
+
+            }
+
+            p {
+                font-size  : 14px;
+                font-weight: 700;
+                text-align : center;
+            }
+
+            .icon {
+                display        : flex;
+                justify-content: space-around;
+
+                .icon-info {
+                    background-color: #FF9F9F;
+                    border-radius   : 50%;
+                    width           : 30px;
+                    height          : 30px;
+                    color           : #fff;
+                    text-align      : center;
+                }
+            }
+        }
+    }
+
+    .second {
+        padding-top: 30px;
+
+        .title {
+            font-size  : 35px;
+            font-weight: 600;
+            font-family: cursive;
+        }
+
+        .sub-title {
+            font-size  : 20px;
+            font-size  : 400;
+            line-height: 23px;
+        }
+
+        .thiep {
+            background-image : url('./img/background2.png');
+            background-size  : cover;
+            background-repeat: no-repeat;
+            height           : 540px;
+            font-size        : 20px;
+            font-style       : normal;
+            font-family      : cursive;
+
+            .wedding {
+                margin-left   : 100px;
+                padding-top   : 120px;
+                padding-bottom: 0px;
+            }
+
+            p {
+                margin-bottom: 0px;
+            }
+
+            .male {
+                margin-top : 0px;
+                margin-left: 150px;
+            }
+
+            .and {
+                margin-left: 200px;
+            }
+
+            .famale {
+                margin-left: 170px;
+            }
+
+            .date {
+                margin-top : 10px;
+                margin-left: 160px;
+            }
+
+            .at {
+                margin-left: 210px;
+            }
+
+            .location {
+                margin-left: 180px;
+            }
+        }
+    }
+
+    .content {
+        padding-top: 30px;
+        height     : 450px;
+
+        p {
+            margin-bottom: 0px;
+        }
+
+        .title {
+            font-weight: 600;
+        }
+
+        .time {
+            float  : right;
+            display: block;
+
+            svg {
+                margin-right : 5px;
+                margin-bottom: 7px;
+            }
+        }
+
+        .title2 {
+            margin-top: 25px;
+            display   : block;
+
+            .font {
+                font-family: cursive;
+                font-size  : 25px;
+                margin-left: 10px;
+            }
+        }
+    }
+}

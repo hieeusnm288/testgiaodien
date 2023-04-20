@@ -1,0 +1,39 @@
+.header {
+    background-color: #FF9F9F;
+    display         : flex;
+    justify-content : space-around;
+    width           : 390px;
+    height          : 40px;
+
+    .back-icon {
+        color : #fff;
+        height: fit-content;
+
+        svg {
+            font-size : 20px;
+            margin-top: 45%;
+        }
+    }
+
+    .text-content {
+        font-family: cursive;
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 20px;
+        line-height: 35px;
+        align-items: center;
+        text-align : center;
+        color      : #FFFFFF;
+        line-height: 40px;
+    }
+
+    .menu-icon {
+        color : #fff;
+        height: fit-content;
+
+        svg {
+            font-size : 20px;
+            margin-top: 45%;
+        }
+    }
+}
